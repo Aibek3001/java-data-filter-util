@@ -7,19 +7,21 @@
 ## ✅ Требования
 
 ### ☕ Версия Java:
-- **Java 17** или выше
-- [Скачать JDK](https://jdk.java.net/17)
+- **Java 17**
 
 ### ⚙️ Система сборки:
-- **Apache Maven** 3.8.7 или выше
-- [Скачать Maven](https://maven.apache.org/download.cgi)
+- **Apache Maven** 3.8.7 или выше(в моей систему установлено 3.9.10)
 
 Проект использует `maven-assembly-plugin`:
 ```xml
 <artifactId>maven-assembly-plugin</artifactId>
 <version>3.3.0</version>
 ```
-
+`maven-compiler-plugin`:
+```xml
+<artifactId>maven-compiler-plugin</artifactId>
+<version>3.10.1</version>
+```
 ---
 
 ## 📦 Используемые библиотеки
